@@ -1,0 +1,1 @@
+gcloud ml-engine jobs submit training "labtesting01" --module-name "trainer.task" --package-path "C:/Users/Atulya/OneDrive/Desktop/trainer" --job-dir "gs://labtesting" --region "us-central1" --config config.yaml -- \
